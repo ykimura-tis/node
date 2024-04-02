@@ -1,0 +1,25 @@
+{
+  "name": "kimm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "list": "source ./src/credential.sh && ts-node src/list.ts",
+    "listonly": "ts-node src/list.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1248.0",
+    "proxy-agent": "^5.0.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.423.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.11.17",
+    "@types/node-fetch": "^2.6.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
